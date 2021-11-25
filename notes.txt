@@ -1,0 +1,56 @@
+1) What is a correct syntax to output "Hello World" in Python?
+print("Hello World") 
+
+2)How do you insert COMMENTS in Python code?
+#This is a comment
+
+3)Which one is NOT a legal variable name?
+my-var 
+
+4)How do you create a variable with the numeric value 5?  
+x = 5
+x = int(5)
+
+5)How do you create a variable with the floating number 2.8?
+x = float(2.8)     
+x = 2.8  
+
+6)What is the correct syntax to output the type of a variable or object in Python?
+print(type(x)) 
+
+7) What is the correct way to create a function in Python?
+def myFunction():
+
+8)  What is a correct syntax to return the first character in a string?
+x = "Hello"[0]
+
+9) Which method can be used to remove any whitespace from both the beginning and the end of a string? 
+strip()  
+
+10) Which method can be used to return a string in upper case letters?
+upper()
+
+11) Which of these collections defines a LIST?
+["apple", "banana", "cherry"] 
+
+12) Which of these collections defines a TUPLE? 
+("apple", "banana", "cherry")  
+
+13) Which of these collections defines a SET?
+{"apple", "banana", "cherry"}  
+
+14)Which of these collections defines a DICTIONARY?
+{"name": "apple", "color": "green"}  
+
+15)Which collection is ordered, changeable, and allows duplicate members?
+LIST  
+
+16)Which collection does not allow duplicate members?
+SET  
+
+notes:
+
+List : ordered and changeable. Allows duplicate 
+Tuple: ordered and unchangeable. Allows duplicate 
+Set:  unordered, unchangeable*, and unindexed. No duplicate
+Dictionary : ordered** and changeable. No duplicate 
